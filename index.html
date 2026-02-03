@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI-Driven Healthcare Intelligence Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Healthcare Intelligence Dashboard</h1>
+    <p>AI-Based Query Optimized BI System</p>
+</header>
+
+<nav>
+    <ul>
+        <li>Dashboard</li>
+        <li>Patients</li>
+        <li>Analytics</li>
+        <li>Reports</li>
+        <li>Settings</li>
+    </ul>
+</nav>
+
+<main>
+
+    <section class="kpi-section">
+        <div class="kpi-card">
+            <h3>Total Patients</h3>
+            <p id="patientsCount">0</p>
+        </div>
+        <div class="kpi-card">
+            <h3>Active Admissions</h3>
+            <p id="admissionsCount">0</p>
+        </div>
+        <div class="kpi-card">
+            <h3>Avg Query Time</h3>
+            <p id="queryTime">0 ms</p>
+        </div>
+        <div class="kpi-card">
+            <h3>AI Optimization Rate</h3>
+            <p id="optimizationRate">0%</p>
+        </div>
+    </section>
+
+    <section class="query-section">
+        <h2>AI Query Interface</h2>
+        <textarea id="queryBox" placeholder="Enter SQL"></textarea>
+        <button onclick="runQuery()">Run Query</button>
+        <div id="queryResult"></div>
+    </section>
+
+</main>
+
+<footer>
+    <p>AI-Driven Healthcare Intelligence Platform</p>
+</footer>
+
+
+</body>
+</html>
